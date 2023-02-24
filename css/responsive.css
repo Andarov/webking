@@ -1,0 +1,504 @@
+/* Oitech | IT Solutions & Technology HTML Template  */
+
+@media only screen and (max-width: 1700px){
+	.about-section-three .image-column .author-info{
+		left: 100px;
+	}
+
+	.header-style-one .logo-box{
+		min-width: auto;
+		margin-right: 40px;
+	}
+}
+
+@media only screen and (max-width: 1439px){
+
+	.main-header .main-box .outer-box .theme-btn,
+	.main-header .info-btn{
+		display: none;
+	}
+
+
+	.main-menu .navigation > li{
+		margin-right: 40px;
+	}
+
+	.about-section .image-column .inner-column{
+		margin-left: 0;
+		padding-right: 0
+	}
+
+	.about-section .content-column .inner-column{
+		padding-left: 0;
+	}
+
+	.about-section-three .image-column .author-info{
+		left: 25%;
+	}
+
+	.faqs-section .image-column .inner-column{
+		padding-right: 0;
+		margin-left: -400px
+	}
+}
+
+
+@media only screen and (max-width: 1199px){
+	.about-section-three .content-column .info-box,
+	.about-section-three .content-column .btn-box .float-icon,
+	.about-section-three .image-column .inner-column .anim-icons,
+	.testimonial-section .owl-dots,
+	.feature-block .inner-box:before,
+	.big-ipad-hidden{
+		display: none !important;
+	}
+
+	.main-slider h1{
+		font-size: 74px	
+	}
+
+	.call-to-action .image-column .image{
+		margin-top: 0;
+	}
+
+	.about-section-three .image-column .inner-column{
+		padding-right: 0;
+	}
+
+	.signup-section-two .form-column .inner-column{
+		padding-left: 0;
+	}
+
+	.signup-form-two form{
+		padding: 60px 30px;
+	}
+
+	.about-section-two .content-column .inner-column{
+		padding-left: 0;
+	}
+
+	.about-block.style-two{
+		margin-top: 0;
+	}
+}
+
+
+@media only screen and (min-width: 768px){
+	.main-menu .navigation > li > ul,
+	.main-menu .navigation > li > ul > li > ul{
+		display:block !important;
+		visibility:hidden;
+		opacity:0;
+	}
+}
+
+
+@media only screen and (max-width: 1023px){
+	.header-style-one .logo-box {
+		padding: 10px 20px;
+		min-height: auto;
+		margin-right: 0;
+	}
+
+	.main-header .main-box .outer-box {
+		padding: 0;
+	}
+
+	.header-style-one .main-box {
+		padding-right: 20px;
+	}
+	
+	.header-top,
+	.header-style-two .header-lower,
+	.header-style-two .contact-info-outer,
+	.main-header .main-menu {
+		display: none;
+	}
+
+	.main-header .logo {
+		min-width: auto;
+	}
+
+	.main-header .logo img,
+	.sticky-header .logo img {
+		width: auto;
+		max-width: none;
+		max-height: 45px;
+		max-width: 100%;
+	}
+
+	.mobile-nav-toggler {
+		display: block;
+		margin-left: 20px;
+	}
+
+	.main-header .ui-btn {
+		font-size: 24px;
+		line-height: 35px;
+		margin-left: 15px;
+	}
+
+
+	.main-header .main-box .nav-outer {
+		width: auto;
+	}
+
+	.main-header .main-box{
+		justify-content: space-between;
+	}
+
+	.main-slider h1 {
+		font-size: 72px;
+		letter-spacing: 0;	
+	}
+
+	.about-section .icon-paper-plan,
+	.ipad-hidden{
+		display: none !important
+	}
+
+	.signup-section .form-column .inner-column{
+		margin-left: 0;
+	}
+
+	.signup-section .outer-box{
+		padding: 120px 70px;
+	}
+
+	.call-to-action .image-column .image{
+		margin-left: 0;
+		margin-right: -15px;
+	}
+
+	.call-to-action .title-column .sec-title{
+		text-align: center;
+	}
+
+	.call-to-action .title-column .style-font{
+		margin-left: 0;
+	}
+
+	.testimonial-section .sec-title h2 br{
+		display: none;
+	}
+
+	.about-section-two .content-column .inner-column{
+		padding-left: 0;
+	}
+
+	.about-section-two .image-column .image img{
+		width: 100%
+	}
+
+	.about-section .content-column,
+	.about-section-two .content-column{
+		order: 0 !important;
+	}
+
+	.about-section .content-column .inner-column{
+		padding-top: 0;
+	}
+
+	.faqs-section .bg-image,
+	.video-section .video-box .float-icon,
+	.faqs-section .image-column,
+	.category-block-two .title br{
+		display: none;
+	}
+
+	.about-section-three .content-column{
+		order: 0 !important;
+	}
+
+	.about-section-three .image-column .inner-column{
+		margin-left: 0;
+	}
+
+	.about-section-three .image-column .inner-column .image img{
+		width: 100%;
+	}
+
+	.video-section .outer-box{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.video-section .video-box{
+		justify-content: center;
+		padding: 0;
+	}
+
+	.signup-section-two .title-column .inner-column{
+		margin-right: 0;
+	}
+
+	.signup-section-two .form-column .signup-form-two{
+		margin-top: -50px;
+	}
+
+	.about-section-four .content-column .sec-title .text{
+		max-width: 100%;
+	}
+
+	.about-section-four .image-column .inner-column{
+		padding-top: 0;
+	}
+
+	.about-section-four .image-column .image-box{
+		margin-right: 0;
+	}
+
+	.news-section-two .carousel-column .carousel-outer{
+		margin-right: -100px
+	}
+
+	.news-section-two .carousel-column .news-block{
+		padding: 10px 10px 30px;
+	}
+
+	.header-style-two .header-upper .logo-box .logo{
+		padding: 10px 0;
+	}
+}
+
+@media only screen and (max-width: 767px){
+
+	.main-header .main-box .outer-box .ui-btn-outer{
+		margin-left: 0;
+	}
+
+	.main-slider h1{
+		font-size: 52px;
+		line-height: 1em;
+	}
+
+	.main-slider .theme-btn{
+		padding: 10px 30px;
+		min-width: 150px !important;
+	}
+
+	.main-slider .text{
+		font-size: 18px;
+		line-height: 26px;
+	}
+
+	.sec-title h2{
+		font-size: 42px;
+	}
+
+	.sec-title h1{
+		font-size: 52px;
+	}
+
+	.call-to-action .title-column .style-font{
+		font-size: 32px;
+	}
+
+	.sec-title h2 br,
+	.courses-section .courses-carousel .owl-nav{
+		display: none;
+	}
+
+	.courses-section .bottom-text .content{
+		display: block;
+		padding: 20px 30px;
+		text-align: center;
+		line-height: 24px;
+	}
+
+	.courses-section .bottom-text .content strong{
+		display: block;
+		margin-right: 0;
+	}
+
+	.courses-section .bottom-text .content .theme-btn{
+		margin-top: 10px;
+		margin-left: 0;
+		display: block;
+	}
+
+	.feature-block .inner-box{
+		text-align: center;
+		padding-left: 0;
+	}
+
+	.feature-block .icon{
+		position: relative;
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+
+	.testimonial-section .carousel-outer{
+		margin-right: -15px;
+	}
+
+	.news-section-two .carousel-column .carousel-outer{
+		margin-right: 0;
+	}
+
+	.about-section-three .image-column .author-info{
+		animation: none;
+	}
+}
+
+
+
+@media only screen and (max-width: 599px){
+	.main-slider h1 {
+		font-size: 48px;
+		line-height: 1em;
+	}
+	
+	.main-slider .title{
+		font-size: 14px;
+	}
+
+	.main-slider .text{
+		max-width: 300px
+	}
+
+	.sec-title .text br,
+	.main-slider .text br {
+		display: none;
+	}
+
+	.list-style-one.two-column li{
+		width: 100%;
+	}
+
+	.about-section .image-column .image-2{
+		position: relative;
+		right: 0;
+		margin-top: 20px;
+	}
+
+	.about-section .experience{
+		right: auto;
+		left: 0;
+	}
+
+	.video-section .title-box .title br,
+	.signup-section .icon-paper-clip{
+		display:none;
+	}
+
+
+	.signup-section .outer-box{
+		padding: 50px 30px;
+	}
+
+	.testimonial-block .content-box{
+		padding: 55px 30px 30px;
+	}
+
+	.testimonial-block .content-box .thumb{
+		height: 100px;
+		width: 120px;
+	}
+
+	.testimonial-block .info-box{
+		padding-left: 0;
+	}
+
+	.testimonial-block .info-box .icon-quote{
+		position: relative;
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+
+	.testimonial-block .content-box:before{
+		width: 200px;
+		background-position: right top;
+	}
+
+	.testimonial-block .content-box .text{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.video-section .title-box .title,
+	.sec-title h2{
+		font-size: 32px;
+	}
+
+	.event-block .content-box{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.event-block .image-box{
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.about-section-four .image-column .caption-box{
+		position: relative;
+		padding: 20px;
+		text-align: center;
+		border-radius: 0;
+	}
+
+	.about-section-four .image-column .caption-box .inner{
+		padding-left: 0;
+	}
+
+	.about-section-four .image-column .caption-box .icon{
+		position: relative;
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+
+	.about-section-four .content-column .counter-info-box .inner{
+		padding-left: 0;
+	}
+
+	.about-section-four .content-column .counter-info-box .count-box{
+		position: relative
+	}
+
+	.pricing-block .inner-box{
+		padding-left: 40px;
+	}
+
+	.time-counter-two{
+		width: 100%;
+		flex-wrap: wrap
+	}
+
+	.time-counter-two .counter-column{
+		margin-bottom: 20px;
+	}
+
+	.about-section-three .image-column .author-info{
+		position: relative;
+		left: 0;
+		top: 0;
+		padding: 25px 30px;
+		text-align: center;
+	}
+
+	.about-section .image-column .image-2 img{
+		max-width: 100%;
+	}
+
+	.about-section-four .content-column .counter-info-box{
+		padding: 30px 30px;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 424px){
+	.main-slider h1 {
+		font-size: 32px;
+		line-height: 1em;
+	}
+}
+
+@media (max-width:600px) {
+	#hero-img-change.tp-caption.tp-resizeme{
+	  top: -37px;
+	  right: 20px;
+	}
+  }
