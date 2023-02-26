@@ -12,6 +12,9 @@
 	<link href="plugins/revolution/css/layers.css" rel="stylesheet" type="text/css"><!-- REVOLUTION LAYERS STYLES -->
 	<link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css">
 
+	<!-- Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
 
@@ -775,24 +778,24 @@
 								<!-- Sign Form -->
 								<div class="signup-form wow fadeInLeft">
 									<!--Contact Form-->
-									<form method="post" data-netlify="true" id="contact-form">
+									<form action="" onsubmit=" return sendtelegram()">
 										<div class="form-group">
-											<input type="text" name="Ismi" placeholder="Ismingiz" required>
+											<input id="name" type="text" name="Ismi" placeholder="Ismingiz" required autocomplete="off">
 										</div>
 
 										<div class="form-group">
-											<input type="tel" name="Raqami" placeholder="Telefon raqamingiz" required>
+											<input id="tel" type="tel" name="Raqami" placeholder="Telefon raqamingiz" required autocomplete="off">
 										</div>
 
 										<div class="form-group">
-											<select class="custom-select" name="Kurs nomi">
+											<select id="cource" class="custom-select" name="Kurs nomi">
 												<option selected disabled>Kurs nomi</option>
-												<option value="frontend">Frontend</option>
-												<option value="backend">Backend</option>
-												<option value="ingliz-tili">Ingliz tili</option>
-												<option value="rus-tili">Rus tili</option>
-												<option value="arab-tili">Arab tili</option>
-												<option value="matematika">Matematika</option>
+												<option value="Frontend">Frontend</option>
+												<option value="Backend">Backend</option>
+												<option value="Ingliz-tili">Ingliz tili</option>
+												<option value="Rus-tili">Rus tili</option>
+												<option value="Arab-tili">Arab tili</option>
+												<option value="Matematika">Matematika</option>
 											</select>
 										</div>
 
@@ -1240,6 +1243,7 @@
 	<script src="js/select2.min.js"></script>
 	<script src="js/swiper.min.js"></script>
 	<script src="js/owl.js"></script>
+	<script src="js/bot.js"></script>
 	<script src="js/script.js"></script>
 </body>
 
