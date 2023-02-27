@@ -2909,7 +2909,7 @@ Section Title
 ***/
 .about-section {
   position: relative;
-  padding: 120px 0 0px;
+  padding: 40px 0 0;
 }
 .about-section .icon-dotted-map {
   top: 145px;
@@ -10865,3 +10865,63 @@ Sidebar
   width: 100% !important;
 }
 
+.video {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-title{
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.about-title{
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  padding-top: 60px;
+}
+
+.video-content {
+  width: 100%;
+  max-width: 1100px;
+  border-radius: 10px;
+}
+
+.about-video-content {
+  max-width: 550px;
+  max-height: 700px;
+  object-fit: cover;
+  border-radius: 32px ;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .video {
+    padding-bottom: 0;
+  }
+  .about-row{
+    flex-direction:column-reverse !important ;
+    /* margin-bottom: 80px; */
+    gap: 60px;
+  }
+
+  .courses-section {
+    padding: 60px 0;
+  }
+}
