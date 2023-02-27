@@ -2,7 +2,20 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta id="description" name="description" content="Web King It Akademiyasi shaxsiy veb sayti">
+    <meta id="keywords" name="keywords" content="webking, WebKing, Webking, Web_King, Webking IT Akademiyasi, webking o'quv markazi">
+    <meta id="name" name="itemprop" content="Webking | IT Akademiyasi">
 	<title>Web_King | Dasturchilar oilasi | Aloqa</title>
+
+	<!-- Google -->
+    <meta name="google-site-verification" content="xnrkEfCIngnJzvAAFmne3nA1okjknAaHAdsMH6slK7M" />
+    <meta name="googlebot" id="googlebot" content="index, follow">
+    <!-- Yandeks -->
+    <meta name="yandex-verification" content="0d98a88b237bac56" />
+    <meta name="yandex-verification" id="yandex-verification" content="index, follow">
+    <meta name="yandex" id="yandex" content="index, follow">
+
+
 	<!-- Stylesheets -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	
@@ -11,6 +24,9 @@
 	
 	<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 	<link rel="icon" href="images/logo.png" type="image/x-icon">
+
+	<!-- Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	
 	<!-- Responsive -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -163,33 +179,33 @@
 							<h2>Biz bilan oson bog'laning</h2>
 						</div>
 						<!-- Contact Form -->
-						<form id="contact_form" name="contact_form" method="post" data-netlify="true">
+						<form action="" onsubmit=" return sendtelegram()" id="contact_form" name="contact_form">
 							<div class="row">
 								<div class="col-sm-6">
 									<div class="mb-3">
-										<input name="Ismi" class="form-control" type="text" placeholder="Ismingiz" required autocomplete="off">
+										<input id="name2" name="Ismi" class="form-control" type="text" placeholder="Ismingiz" required autocomplete="off">
 									</div>
 								</div>
 								<div class="col-sm-6">
 									<div class="mb-3">
-										<input name="Familiya" class="form-control" type="text" placeholder="Familiyangiz" required autocomplete="off">
+										<input id="last-name" name="Familiya" class="form-control" type="text" placeholder="Familiyangiz" required autocomplete="off">
 									</div>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-sm-6">
 									<div class="mb-3">
-										<input name="Kurs nomi" class="form-control required" type="text" placeholder="Kurs nomi" autocomplete="off" required>
+										<input id="cource-name" name="Kurs nomi" class="form-control required" type="text" placeholder="Kurs nomi" autocomplete="off" required>
 									</div>
 								</div>
 								<div class="col-sm-6">
 									<div class="mb-3">
-										<input name="Telefon raqami" class="form-control" type="tel" placeholder="Telefon raqamingiz" required autocomplete="off" pattern="(\+998|8)[\- ]?\d{2}[\- ]?\d{3}[\- ]?\d{2}[\- ]?\d{2}">
+										<input id="tel2" name="Telefon raqami" class="form-control" type="tel" placeholder="Telefon raqamingiz" required autocomplete="off" pattern="(\+998|8)[\- ]?\d{2}[\- ]?\d{3}[\- ]?\d{2}[\- ]?\d{2}">
 									</div>
 								</div>
 							</div>
 							<div class="mb-3">
-								<textarea name="Xabar" class="form-control required" rows="7" placeholder="Xabar"></textarea>
+								<textarea id="message" name="Xabar" class="form-control required" rows="7" placeholder="Xabar"></textarea>
 							</div>
 							<div class="mb-3">
 								<input name="form_botcheck" class="form-control" type="hidden" value="" />
@@ -339,10 +355,11 @@
 	<script src="js/select2.min.js"></script>
 	<script src="js/swiper.min.js"></script>
 	<script src="js/owl.js"></script>
+	<script src="js/bot.js"></script>
 	<script src="js/script.js"></script>
 	
 	<!-- form submit -->
-	<script src="js/jquery.validate.min.js"></script>
+	<!-- <script src="js/jquery.validate.min.js"></script>
 	<script src="js/jquery.form.min.js"></script>
 	<script>
 		(function($) {
@@ -368,6 +385,6 @@
 				}
 			});
 		})(jQuery);
-	</script>
+	</script> -->
 </body>
 </html>
