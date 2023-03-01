@@ -10901,13 +10901,17 @@ Sidebar
   width: 100%;
   max-width: 1100px;
   border-radius: 10px;
+  background-color: #826b49;
 }
 
 .about-video-content {
   max-width: 550px;
   max-height: 700px;
+  min-height: 400px;
   object-fit: cover;
   border-radius: 32px ;
+  display: inline-block;
+  background-color: rgb(226 232 240);
 
 }
 
@@ -10923,5 +10927,9 @@ Sidebar
 
   .courses-section {
     padding: 60px 0;
+  }
+  .video-content{
+    max-height: 400px;
+
   }
 }
